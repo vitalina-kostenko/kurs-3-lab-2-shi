@@ -1,5 +1,4 @@
 def get_negatives_loop(lst):
-    """Записує всі від'ємні числа списку a в другий список (без генератора)."""
     result = []
     for x in lst:
         if x < 0:
@@ -8,7 +7,6 @@ def get_negatives_loop(lst):
 
 
 def get_negatives_comprehension(lst):
-    """Записує всі від'ємні числа списку a в другий список (з генератором списку)."""
     return [x for x in lst if x < 0]
 
 
